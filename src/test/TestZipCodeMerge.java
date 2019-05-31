@@ -79,6 +79,7 @@ class TestZipCodeMerge {
 	return arr;
 
 }
+	@Test
 	void testMergeZipCodeRange3() {
 		ZipCode arr[]=null; 
 		ZipCodeMerge obj= new ZipCodeMerge();

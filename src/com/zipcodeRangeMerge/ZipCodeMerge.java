@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class ZipCodeMerge {
 	public  List<ZipCode> mergeZipCodeRange(ZipCode arr[]) {
 		List<ZipCode> mergedCodes=null;
-		if(arr.length>0) {
+		if(arr!=null && arr.length>0) {
 			mergedCodes = new ArrayList<ZipCode>();
 		mergedCodes.add(arr[0]);
 		for (int i = 1; i < arr.length; i++) {
